@@ -4,7 +4,7 @@ services:
     build: .
     image: pocketbase:latest
     volumes:
-      - pocketbase-volume:/app/pocketbase/pb_data
+      - pocketbase-volume:/app/pocketbase
     networks:
       - my-network
     ports:
